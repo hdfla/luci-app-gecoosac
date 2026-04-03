@@ -1,41 +1,24 @@
-# 集客 AC OpenWrt 插件 2.2 版
-### 注意：2.2 版仅支持集客 AP 7.6 及以上版本的固件，低版本固件无法接收 AC 下发的配置，有条件的建议更新 AP 固件到 8.x 。
-### 另外：由于 2.2 版 软AC 增加了参数，本仓库不再兼容 2.2 以下版本的 AC 程序。
+# Jike AC OpenWrt Plugin Version 2.2  
+### Note: Version 2.2 only supports Jike AP firmware versions 7.6 and above. Lower version firmware cannot receive configurations issued by the AC. If possible, it's recommended to update your AP firmware to version 8.x.  
+### Also, because version 2.2 of the soft AC adds new parameters, this repository is no longer compatible with AC programs below version 2.2.  
 -------------------------------------------
 
-### 下载源码方法:
+### How to download the source code:
 
- ```Brach
-
-   # 下载源码
-   git clone --depth=1 https://github.com/laipeng668/luci-app-gecoosac package/luci-app-gecoosac
+   # Download the source code
+   git clone --depth=1 https://github.com/hiedgm/luci-app-gecoosac package/luci-app-gecoosac
    make menuconfig
 
- ```
-
-### 配置菜单:
-
- ```Brach
+### Configuration menu:
 
    make menuconfig
-   # 找到 LuCI -> Applications, 选择 luci-app-gecoosac, 保存后退出。
+   # Go to LuCI -> Applications, select luci-app-gecoosac, save and exit.
 
- ```
+### Compilation:
 
-### 编译:
-
- ```Brach
-
-   # 编译固件
+   # Compile the firmware
    make package/luci-app-gecoosac/compile V=s
 
- ```
+### Acknowledgments:
 
-### 致谢:
-
- ```Brach
-
-   特别感谢lwb1978大佬的付出！
-
- ```
-
+   Special thanks to lwb1978 for their hard work!

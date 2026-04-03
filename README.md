@@ -5,20 +5,27 @@
 
 ### How to download the source code:
 
+   ````
    # Download the source code
    git clone --depth=1 https://github.com/hiedgm/luci-app-gecoosac package/luci-app-gecoosac
    make menuconfig
+   ````
 
 ### Configuration menu:
 
+   ````
    make menuconfig
    # Go to LuCI -> Applications, select luci-app-gecoosac, save and exit.
+   ````
 
 ### Compilation:
 
+   ````
    # Compile the firmware
    make package/luci-app-gecoosac/compile V=s
+   ````
 
 ### Acknowledgments:
-
+   ````
    Special thanks to lwb1978 for their hard work!
+   ````

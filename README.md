@@ -1,6 +1,6 @@
-# Jike AC OpenWrt Plugin Version 2.2  
-### Note: Version 2.2 only supports Jike AP firmware versions 7.6 and above. Lower version firmware cannot receive configurations issued by the AC. If possible, it's recommended to update your AP firmware to version 8.x.  
-### Also, because version 2.2 of the soft AC adds new parameters, this repository is no longer compatible with AC programs below version 2.2.  
+# Gecoos AC 2.2 for OpenWrt
+### Note: Version 2.2 only supports Gecoos AP version ≥7.6. Lower firmware cannot receive configurations issued by the AC. It is recommended to update your AP's firmware to version 8.x.  
+### Also, because version 2.2 of the AC adds new parameters, this repository is no longer compatible with AC firmwares below version 2.2.  
 -------------------------------------------
 
 ### How to download the source code:
@@ -23,9 +23,4 @@
    ````
    # Compile the firmware
    make package/luci-app-gecoosac/compile V=s
-   ````
-
-### Acknowledgments:
-   ````
-   Special thanks to lwb1978 for their hard work!
    ````
